@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="RIEvent"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="readdevinput.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInput"/>
+      </Item>
+      <Item>
+        <Filename Value="readdevinput_contourshuttlepro.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInput_ContourShuttlePro"/>
+      </Item>
+      <Item>
+        <Filename Value="readdevinput_gamepadsnes.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInput_GamepadSNES"/>
+      </Item>
+      <Item>
+        <Filename Value="readdevinput_vecpedal.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInput_VecPedal"/>
+      </Item>
+      <Item>
+        <Filename Value="readdevinputcomp_mouse.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInputComp_Mouse"/>
+      </Item>
+      <Item>
+        <Filename Value="readdevinputcomp_keyboard.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ReadDevInputComp_Keyboard"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

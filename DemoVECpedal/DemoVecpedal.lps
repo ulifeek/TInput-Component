@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="DemoVecpedal.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="25"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="40" Y="64"/>
+        <UsageCount Value="25"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../README.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="100" Y="4"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinput_vecpedal.pas"/>
+        <UnitName Value="ReadDevInput_VecPedal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="78"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinput.pas"/>
+        <UnitName Value="ReadDevInput"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="68"/>
+        <CursorPos X="148" Y="228"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinput_contourshuttlepro.pas"/>
+        <UnitName Value="ReadDevInput_ContourShuttlePro"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos Y="62"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinput_gamepadsnes.pas"/>
+        <UnitName Value="ReadDevInput_GamepadSNES"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="53"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinputcomp_mouse.pas"/>
+        <UnitName Value="ReadDevInputComp_Mouse"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos Y="46"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../rievent.pas"/>
+        <UnitName Value="RIEvent"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="50" Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../readdevinputcomp_keyboard.pas"/>
+        <UnitName Value="ReadDevInputComp_Keyboard"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="45" Y="48"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="../readdevinput.pas"/>
+        <Caret Line="230" Column="81" TopLine="199"/>
+      </Position>
+      <Position>
+        <Filename Value="../readdevinput.pas"/>
+        <Caret Line="123" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="../readdevinput.pas"/>
+        <Caret Line="230" Column="40" TopLine="198"/>
+      </Position>
+      <Position>
+        <Filename Value="../readdevinput.pas"/>
+        <Caret Line="229" TopLine="197"/>
+      </Position>
+      <Position>
+        <Filename Value="../readdevinput.pas"/>
+        <Caret Line="206" Column="67" TopLine="198"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

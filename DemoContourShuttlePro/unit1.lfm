@@ -1,0 +1,105 @@
+object Form1: TForm1
+  Left = 790
+  Height = 318
+  Top = 365
+  Width = 354
+  Caption = 'Demo ContourShuttlePro'
+  ClientHeight = 318
+  ClientWidth = 354
+  OnCreate = FormCreate
+  OnMouseWheel = FormMouseWheel
+  LCLVersion = '3.0.0.3'
+  object LabeledEdit1: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 48
+    Width = 80
+    EditLabel.Height = 21
+    EditLabel.Width = 92
+    EditLabel.Caption = 'Button Down'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 0
+    Text = 'LabeledEdit1'
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 88
+    Width = 80
+    EditLabel.Height = 21
+    EditLabel.Width = 71
+    EditLabel.Caption = 'Button Up'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 1
+    Text = 'LabeledEdit2'
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 168
+    Width = 80
+    EditLabel.Height = 21
+    EditLabel.Width = 87
+    EditLabel.Caption = 'Dial Position'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 2
+    Text = 'LabeledEdit3'
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 208
+    Width = 80
+    EditLabel.Height = 21
+    EditLabel.Width = 103
+    EditLabel.Caption = 'Wheel Position'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 3
+    Text = 'LabeledEdit4'
+  end
+  object LabeledEdit5: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 248
+    Width = 80
+    EditLabel.Height = 21
+    EditLabel.Width = 168
+    EditLabel.Caption = 'Wheel Position High Res'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 4
+    Text = 'LabeledEdit5'
+  end
+  object LabeledEdit6: TLabeledEdit
+    Left = 208
+    Height = 33
+    Top = 128
+    Width = 128
+    EditLabel.Height = 21
+    EditLabel.Width = 88
+    EditLabel.Caption = 'Buttonstatus'
+    LabelPosition = lpLeft
+    LabelSpacing = 10
+    TabOrder = 5
+    Text = 'LabeledEdit6'
+  end
+  object InputComp_CSP1: TInputComp_CSP
+    enabled = False
+    LogThread = False
+    OnWheelChange = InputComp_CSP1WheelChange
+    OnWheel_High_ResChange = InputComp_CSP1Wheel_High_ResChange
+    OnDialChange = InputComp_CSP1DialChange
+    PositionDial = 0
+    PositionWheel = 0
+    PositionHighResWheel = 0
+    OnButtonDown = InputComp_CSP1ButtonDown
+    OnButtonUp = InputComp_CSP1ButtonUp
+    OnStatusChanged = InputComp_CSP1StatusChanged
+    Left = 32
+    Top = 32
+  end
+end

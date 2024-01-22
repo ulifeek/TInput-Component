@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 706
+  Height = 146
+  Top = 445
+  Width = 366
+  Caption = 'Demo VEC Pedal'
+  ClientHeight = 146
+  ClientWidth = 366
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object Edit1: TEdit
+    Left = 85
+    Height = 33
+    Top = 27
+    Width = 145
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 85
+    Height = 33
+    Top = 75
+    Width = 145
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Label1: TLabel
+    Left = 29
+    Height = 21
+    Top = 35
+    Width = 38
+    Caption = 'Pedal'
+  end
+  object Label2: TLabel
+    Left = 29
+    Height = 21
+    Top = 83
+    Width = 42
+    Caption = 'Status'
+  end
+  object InputComp_VEC1: TInputComp_VEC
+    InputDevice = '/dev/input/event5'
+    LogThread = True
+    OnInputEvent = InputComp_VEC1InputEvent
+    OnPedal0Down = InputComp_VEC1Pedal0Down
+    OnPedal0Up = InputComp_VEC1Pedal0Up
+    OnPedal1Down = InputComp_VEC1Pedal1Down
+    OnPedal1Up = InputComp_VEC1Pedal1Up
+    OnPedal2Down = InputComp_VEC1Pedal2Down
+    OnPedal2Up = InputComp_VEC1Pedal2Up
+    Left = 256
+    Top = 56
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 312
+    Top = 42
+  end
+end

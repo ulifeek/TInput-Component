@@ -1,0 +1,1 @@
+ACTION=="add|change", KERNEL=="event[0-9]*", ATTRS{idVendor}=="0b33", ATTRS{idProduct}=="0030",MODE="0664"
