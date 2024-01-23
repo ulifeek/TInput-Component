@@ -160,7 +160,7 @@ with OpenDialog1 do
   initialdir:='/dev/input/by-id/';
   title:= 'Select Event-File';
   options:=  [ofNoChangeDir,ofExtensionDifferent,ofFileMustExist,ofNoNetworkButton,ofOldStyleDialog,ofEnableSizing,ofViewDetail,ofNoDereferenceLinks,ofNoResolveLinks];
-  if Execute then setDevice(filename) else showmessage('Error. Is user member of group ''input''(sudo usermod -aG input <username>)?')
+  if Execute then setDevice(filename) else showmessage('Error. Has user read permission to selected file? Check your rules please.')
   end;
 opendialog1.free;;
 end;
