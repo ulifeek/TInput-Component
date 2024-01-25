@@ -1,7 +1,3 @@
-// Important:
-//Add User to group 'input': sudo usermod -aG input <username>. Needs reboot to take effect.
-
-
 unit ReadDevInput;
 
 {$mode objfpc}{$H+}
